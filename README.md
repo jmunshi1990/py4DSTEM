@@ -60,7 +60,7 @@ conda install pip
 pip install py4dstem[aiml-cuda]
 ```
 
-if you are running on Windows without any CUDA device or any Mac OS X system, you should run
+if you are running on Windows with Nvidia GPU and CUDA capability, you should run
 ```
 conda update conda
 conda create -n py4dstem python==3.8
@@ -70,7 +70,7 @@ pip install tensorflow-gpu==2.4.1
 pip install py4dstem[aiml-cuda]
 ```
 
-if you are running on Windows without any CUDA device or any Mac OS X system, you should run
+if you are running on Windows without any CUDA capable device or any Mac OS X system, you should run
 ```
 conda update conda
 conda create -n py4dstem python==3.8
